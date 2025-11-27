@@ -1,7 +1,7 @@
 // Bibliotecas
+#include <Arduino_FreeRTOS.h>
 #include <semphr.h>
 #include <LiquidCrystal.h>
-#include <Arduino_FreeRTOS.h>
 
 // Pinos do LCD (RS, E, D4, D5, D6, D7)
 const int rs = 8, e = 9, d4 = 10, d5 = 11, d6 = 12, d7 = 13;
